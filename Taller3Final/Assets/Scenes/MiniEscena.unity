@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -216,6 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contadorText: {fileID: 55509613}
+  particulasPrefab: {fileID: 0}
 --- !u!1001 &125102496
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -390,6 +395,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -460,6 +469,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -585,6 +598,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -650,6 +667,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -806,6 +827,7 @@ GameObject:
   - component: {fileID: 356144458}
   - component: {fileID: 356144457}
   - component: {fileID: 356144460}
+  - component: {fileID: 356144461}
   m_Layer: 6
   m_Name: Terrain
   m_TagString: Untagged
@@ -910,6 +932,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &356144461
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356144456}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &386706383 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
@@ -932,6 +975,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -1007,6 +1054,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -1072,6 +1123,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -1251,6 +1306,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -1559,6 +1618,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -1817,6 +1880,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -1887,6 +1954,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -1962,6 +2033,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -2027,6 +2102,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -2085,6 +2164,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
   m_PrefabInstance: {fileID: 763891125}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1336256090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1336256091}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1336256091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336256090}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 52.677204, y: 3.7326014, z: 133.59013}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1364494299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6360420542703049432, guid: 8fcb9d2d43929c04f8c70c38581418d4, type: 3}
@@ -2152,6 +2262,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -2222,6 +2336,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -2337,6 +2455,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -2639,7 +2761,7 @@ MonoBehaviour:
   animator: {fileID: 1796868358}
   rb: {fileID: 1796868357}
   jumpHeight: 0.3
-  groundCheck: {fileID: 1849203029}
+  groundCheck: {fileID: 356144459}
   groundDistance: 0.1
   groundMask:
     serializedVersion: 2
@@ -2661,6 +2783,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -2967,6 +3093,10 @@ PrefabInstance:
       propertyPath: contadorText
       value: 
       objectReference: {fileID: 55509613}
+    - target: {fileID: 2721508240853285582, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
+      propertyPath: particulasPrefab
+      value: 
+      objectReference: {fileID: 6791933642578016266, guid: ab84663355922824a94877943935d754, type: 3}
     - target: {fileID: 3531253379089066202, guid: 44babfcd6dc3aea41985ad4cbd4d3e11, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.959999
@@ -3029,3 +3159,4 @@ SceneRoots:
   - {fileID: 1796868354}
   - {fileID: 1554174176}
   - {fileID: 1703823579}
+  - {fileID: 1336256091}

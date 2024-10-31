@@ -22,15 +22,13 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         x = Input.GetAxis("Horizontal");
-
         y = Input.GetAxis("Vertical");
 
-        transform.Rotate(0, x * Time.deltaTime *rotationSpeed,0);
+        // Rotación
+        transform.Rotate(0, x * Time.deltaTime * rotationSpeed, 0);
 
-        transform.Translate(0, 0, y * Time.deltaTime*runSpeed);
-
+        // Animaciones
         animator.SetFloat("VelX", x);
-
         animator.SetFloat("VelY", y);
 
         if (Input.GetKey("f"))
@@ -38,17 +36,28 @@ public class PlayerMove : MonoBehaviour
             animator.SetBool("Other", false);
             animator.Play("Dance");
         }
-        if (x > 0 || x < 0 || y > 0 || y < 0)
-            {
+
+        if (x != 0 || y != 0)
+        {
             animator.SetBool("Other", true);
         }
+
+        // Detección de suelo
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+        // Salto
         if (Input.GetKey("space") && isGrounded)
         {
             animator.Play("Jump");
-            Invoke("Jump", 0.1f);
-
+            Jump();
         }
+    }
+
+    void FixedUpdate()
+    {
+        // Movimiento usando el Rigidbody
+        Vector3 move = transform.forward * y * runSpeed * Time.fixedDeltaTime;
+        rb.MovePosition(rb.position + move);
     }
 
     public void Jump()

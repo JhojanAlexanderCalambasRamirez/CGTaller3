@@ -7,6 +7,7 @@ public class Coin : MonoBehaviour
 {
     public static int coinCount = 0; // Contador de monedas
     public TextMeshProUGUI contadorText; // Referencia al TextMeshProUGUI
+    public GameObject particulasPrefab; // Partícula que se mostrará al recoger la moneda
 
     private void Start()
     {
@@ -19,6 +20,13 @@ public class Coin : MonoBehaviour
         {
             coinCount++; // Incrementar el contador
             UpdateCoinCounter(); // Actualizar el texto del contador
+
+            // Instanciar la partícula en la posición de la moneda
+            if (particulasPrefab != null)
+            {
+                Instantiate(particulasPrefab, transform.position, Quaternion.identity);
+            }
+
             Destroy(gameObject); // Destruir la moneda
         }
     }
